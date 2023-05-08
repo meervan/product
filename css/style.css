@@ -393,3 +393,38 @@ body {
 .support-text-block p {
     width: 365px;
 }
+
+.about-text h4{
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+}
+.about-text h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+    padding: 8px 0 23px 0;
+
+}
+
+.about-text p{
+    width: 486px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+
+}
+
+.about-text h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+    padding: 30px 0 13px 0;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
