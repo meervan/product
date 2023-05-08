@@ -24,6 +24,10 @@ body {
 }
 
 #header{
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    backdrop-filter: blur(5px);
     padding: 25px;
     -webkit-box-shadow: 0 9px 10px 3px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0 9px 10px 3px rgba(34, 60, 80, 0.2);
@@ -307,3 +311,85 @@ body {
     justify-content: space-between;
 }
 
+#support {
+    padding: 60px 0;
+
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-text h4{
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343D;
+
+}
+
+.support-text h1{
+    padding: 8px 0 18px 0;
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343D;
+}
+
+.support-text p{
+    width: 486px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #22343D;
+    padding: 15px 0;
+}
+
+.support-block-one{
+    width: 35px;
+    height: 35px;
+    background: #FF9900;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.support-text-block ion-icon {
+    color: white;
+    font-size: 25px;
+}
+
+.support-block-two {
+    width: 35px;
+    height: 35px;
+    background: #F03E3D;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.support-block-three {
+    width: 35px;
+    height: 35px;
+    background: #4D8DFF;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.support-text-block{
+    width: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-text-block p {
+    width: 365px;
+}
