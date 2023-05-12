@@ -428,3 +428,66 @@ body {
     justify-content: space-between;
 }
 
+#easy{
+    padding: 50px 0;
+    background:  url("../img/easy.png") no-repeat top/cover;
+    height: 60vh;
+
+}
+
+.easy h1{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343D;
+}
+
+.easy p{
+    width: 542px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #22343D;
+    margin: 0 auto;
+    padding: 16px 0 36px 0;
+
+}
+
+.easy-block {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+
+}
+
+.easy-block-text{
+    height: 53px;
+    width: 274px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  0 16px;
+
+
+}
+
+.easy-general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.easy button{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #02897A;
+    border-radius: 4px;
+    padding: 15px 25px;
+}
+
