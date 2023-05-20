@@ -28,7 +28,7 @@ body {
     z-index: 100;
     top: 0;
     backdrop-filter: blur(5px);
-    padding: 25px;
+    padding: 25px 0;
     -webkit-box-shadow: 0 9px 10px 3px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0 9px 10px 3px rgba(34, 60, 80, 0.2);
     box-shadow: 0 9px 10px 3px rgba(34, 60, 80, 0.2);
@@ -105,7 +105,6 @@ body {
 .header-btn-three {
     font-size: 25px;
     display: flex;
-    justify-content: center;
     align-items: center;
     background: transparent;
     color: #02897A;
@@ -114,6 +113,7 @@ body {
 }
 .header-nav{
     display: flex;
+    align-items: center;
 }
 
 #hero {
@@ -571,5 +571,369 @@ body {
     display: block;
     object-fit: cover;
 }
+
+
+#price{
+    padding: 40px 0;
+
+}
+
+.price h1 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+    text-align: center;
+
+}
+
+.price h5{
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343D;
+    text-align: center;
+    padding: 8px 0 50px 0;
+
+}
+
+.price-block{
+    width: 323px;
+    height: 456px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .4s;
+
+}
+
+.price-block:hover{
+    background: #02897A;
+    color: #BCD0E5;
+}
+
+
+.price-block:hover > h3 {
+    color: #FFFFFF;
+}
+
+.price-block:hover >h2{
+    color: #FFFFFF;
+}
+
+.price-block:hover > .price-block-text h2 {
+    color: #FFFFFF;
+}
+.price-block > p {
+    color: #FFFFFF;
+}
+
+.price-block:hover > .price-block-text h4 {
+    color: #FFFFFF;
+}
+
+.price-block:hover > .price-block-text span{
+    color: #FFFFFF;
+}
+
+.price-block:hover > button{
+    background: #FFFFFF;
+    color: #02897A;;
+}
+
+.price-block h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #22343D;
+
+}
+
+.price-block p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 8px 0 16px 0;
+
+}
+.price-block-text {
+    display: flex;
+    align-items: center;
+}
+
+.price-block-text h2 {
+    font-weight: 700;
+    font-size: 76px;
+    color: #02897A;
+}
+
+.price-block-text div {
+    padding-left: 8px;
+}
+
+
+.price-block-text h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #02897A;
+}
+
+.price-block-text span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #AFAFAF;
+}
+
+.price-block h3 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343D;
+    padding: 8px 0;
+}
+
+.price-block button {
+    background: #02897A;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.price-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#what {
+    padding: 40px 0;
+}
+
+.what h1 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343D;
+    text-align: center;
+}
+
+.what p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #22343D;
+    padding: 8px 0 50px 0;
+}
+
+.what-block {
+    width: 327px;
+    height: 236px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 0 20px;
+}
+
+.stars div {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    width: 19px;
+    height: 19px;
+    background: #F3CD03;
+    margin: 0 2px;
+    border: 2px solid #F3CD03;
+}
+
+.what-block p {
+    width: 275px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #737373;
+    padding: 20px;
+    text-align: start;
+}
+
+.what-block-img {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 10px;
+}
+
+.what-block-img div {
+    padding-left: 20px;
+}
+
+.what-block-img div h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #02897A;
+}
+
+.what-block-img div span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #252B42;
+}
+
+.what-blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#join {
+    padding: 60px 0;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+}
+
+.join-block {
+    width: 968px;
+    height: 345px;
+    background: #02897A;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.join-block-text h1 {
+    width: 500px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 151.4%;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.join-block-text {
+    padding-left: 20px;
+}
+
+.join-block-text button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897A;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+
+#footer {
+    padding: 40px 0;
+}
+
+.footer-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer-logo-one {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-one h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #173A56;
+    padding-left: 16px;
+}
+
+.footer-logo-one {
+    padding-bottom: 30px;
+}
+
+.footer-logo-two a {
+    color: #02897A;
+    font-size: 25px;
+    padding: 15px 8px;
+    transition: .4s;
+}
+
+.footer-logo-two a:hover {
+    color: #3d3db0;
+    transform: scale(1.1);
+}
+
+.footer-nav h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #22343D;
+    padding-bottom: 8px;
+}
+
+.footer-nav h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    padding: 5px 0;
+}
+
+.footer-input h1 {
+    width: 280px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #22343D;
+}
+
+.footer-input input {
+    width: 325px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 0 10px;
+    outline: none;
+    margin: 34px 0 21px 0;
+}
+
+.footer-input button {
+    background: #02897A;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: .4s;
+    border: 2px solid #02897A;
+}
+
+.footer-input button:hover {
+    background: transparent;
+    color: #02897A;
+    border: 2px solid #02897A;
+}
+
+.footer-footer {
+    font-weight: 400;
+    font-size: 16px;
+    color: #22343D;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+
+
+
+
+
+
 
 
