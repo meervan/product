@@ -1,0 +1,276 @@
+@media (max-width: 1440px) {
+
+    .container{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .header-nav {
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-btn{
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .product-general{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+    .product-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    #product{
+        height: 100vh ;
+    }
+
+    .management{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .support{
+        flex-direction: column-reverse;
+
+    }
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text{
+        padding-bottom: 20px;
+    }
+
+    .price-blocks{
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .price-block{
+        margin: 10px;
+
+    }
+
+    .what-blocks{
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .what-block{
+        margin: 10px;
+    }
+
+    .join-block{
+        width: 95%;
+        flex-wrap: wrap;
+        height: 90%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    .easy-general{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .easy-general{
+        flex-wrap: wrap;
+    }
+
+    }
+
+@media (max-width: 768px) {
+    .easy-block-two{
+        flex-direction: row-reverse;
+    }
+    #easy{
+        height: 100vh;
+    }
+    .footer-general{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+    .footer-input{
+        padding-top: 25px;
+        align-items: center;
+    }
+    .slider p{
+        width: 90%;
+        text-align: center;
+    }
+    .slider h1{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hero-img{
+        width: 90%;
+    }
+    .product{
+        width: 90%;
+    }
+    #product{
+        height: 100%;
+    }
+    .join-block-text{
+        width: 90%;
+    }
+
+
+
+
+}
+
+@media (max-width: 450px){
+    .hero-text{
+        width: 90%;
+        text-align: center;
+    }
+    .hero-text p{
+        width: 90%;
+    }
+
+    .hero-btn{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .management p{
+        width: 90%;
+        text-align: center;
+    }
+    .management-img{
+        width: 400px;
+    }
+    .support-text p{
+        width: 90%;
+        text-align: center;
+
+    }
+    .support-text{
+        text-align: center;
+    }
+    .about-text p{
+        width: 90%;
+    }
+
+    .easy p{
+        width: 90%;
+
+    }
+    .join-block-text h1{
+        width: 90%;
+    }
+
+
+    #easy{
+        height: 115vh;
+    }
+    .product h1{
+        width: 90%;
+    }
+
+    .easy-block-text{
+        width: 235px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 400px){
+    .support-text p{
+        width: 90%;
+    }
+
+    }
+    .support-text-block{
+        flex-direction: column;
+        display: flex;
+
+    }
+
+
+    .support-title {
+        width: 90%;
+    }
+@media (max-width: 375px){
+    .hero-text h1{
+        width: 90%;
+
+    }
+
+    .management-img{
+        width: 300px;
+
+    }
+    .support-text-block {
+        width: 90%;
+    }
+    .easy-block-text{
+        width: 90%;
+    }
+    .footer-input input{
+        width:90%
+    }
+
+    .footer-general{
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-block img {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 320px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
